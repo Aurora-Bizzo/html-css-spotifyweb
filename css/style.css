@@ -9,13 +9,18 @@ body {
     font-size: 18px;
 }
 
-.inline-block {
-    display: inline-block;
-}
 
 /*utilities*/
 
     /*width-height*/
+
+        .width-100 {
+            width: 100%;
+        }
+
+        .height-100 {
+            height: 100%;
+        }
 
         .width-35 {
             width: 35px;
@@ -39,8 +44,25 @@ body {
         .padding-5-0 {
             padding: 5px 0;
         }
+
+        .padding-30 {
+            padding: 30px;
+        }
+
+        .padding-0-40 {
+            padding: 0 40px;
+        }
+
         .padding-bottom-7 {
             padding-bottom: 7px;
+        }
+
+        .padding-top-10 {
+            padding-top: 10px;
+        }
+
+        .padding-bottom-10 {
+            padding-bottom: 10px;
         }
 
     /*padding-end*/
@@ -79,6 +101,10 @@ body {
             justify-content: space-between;
         }
 
+        .flex-end {
+            justify-content: flex-end;
+        }
+
     /*flexbox*/
 
 /*utilities*/
@@ -105,7 +131,6 @@ body {
 
     .menu {
         width: 100%;
-        background-color: gray;
     }
 
     .logo {
@@ -123,7 +148,6 @@ body {
 
     .user {
         width: 100%;
-        background-color: gray;
     }
      
     ul {
@@ -135,7 +159,7 @@ body {
     }
 
     .profile-img {
-        background-color: green;
+        background-color: gray;
         padding: 1px;
         border-radius: 19px;
         height: 35px;
