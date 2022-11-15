@@ -20,12 +20,20 @@ button {
         border-radius: 20px;
     }
 
+    .border-radius-50 {
+        border-radius: 50%;
+    }
+
     .position-relative {
         position: relative;
     }
 
     .tex-align-center {
         text-align: center;
+    }
+
+    .cursor-pointer {
+        cursor: pointer;
     }
 
     /*display*/
@@ -265,6 +273,14 @@ button {
         margin-left: 2px;
     }
 
+    .side-green-bar {
+        height: 35px;
+        width: 4px;
+        background-color: greenyellow;
+        position: absolute;
+        transform: translateX(-15px);
+    }
+
 /*aside-end*/
 
 /*main-header*/
@@ -275,6 +291,7 @@ button {
         position: fixed;
         top: 0;
         right: 0;
+        z-index: 1;
     }
 
     main {
@@ -285,7 +302,7 @@ button {
     }
 
     .contents {
-        background-color: blueviolet;
+        background-color: rgb(20, 25, 34);
         padding: 100px 15px 15px 15px;
         overflow-y: auto;    
     }
@@ -301,6 +318,13 @@ button {
 
     .hover-img {
         display: none;
+    }
+
+    .main-green-bar {
+        width: 45%;
+        height: 3px;
+        background-color: greenyellow;
+        margin: auto;
     }
 
 /*main-header-end*/
@@ -327,7 +351,6 @@ button {
     .progress-bar, .sound-bar {
         height: 5px;
         background-color: rgba(225,225,225,0.2);
-        cursor: pointer;
     }
 
     .progress-bar {
@@ -338,7 +361,7 @@ button {
         margin-left: 10px;
     }
 
-    .played-time, .volume {
+    .played-time, .volume-bar {
         width: 20%;
         background-color: rgba(225,225,225,0.75);
     }
@@ -351,11 +374,11 @@ button {
 
 /*hover*/
 
-    .progress-bar:hover .played-time {
+    .progress-bar:hover .played-time, .volume-bar:hover .volume {
         background-color: rgb(135, 248, 28);
     }
 
-    .progress-bar:hover .progress-bar-cursor {
+    .progress-bar:hover .progress-bar-cursor, .volume-bar:hover .volume-bar-cursor {
         display: block;
         position: absolute;
         top: 50%;
@@ -373,6 +396,10 @@ button {
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+
+    .hover-white:hover {
+        color:white;
     }
 
 /*hover-end*/
@@ -440,6 +467,10 @@ button {
             display: inline;
             margin-right: 5px;
         }
+
+        .col-row-3, .col-row-4 {
+            width: 50%;
+        }
     }
 
     @media screen and (min-width: 1200px) and (min-width: 1440px) {
@@ -455,7 +486,7 @@ button {
             display: flex;
         }
 
-        .col-33-3 {
+        .col-33-3, .col-row-3, .col-row-4 {
             max-width: 397px;
         }
     }

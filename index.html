@@ -31,16 +31,17 @@
                                 <div class="extended display-none">
                                     <img class="logo" src="./img/logo.svg" alt="">
                                     <div class="padding-bottom-7 flex align-items-center">
+                                        <div class="side-green-bar"></div>
                                         <img class="width-35 height-35 margin-right-5" src="./img/home.svg" alt="">
-                                        <div class="color-white"><strong>Home</strong></div>
+                                        <div class="color-white cursor-pointer"><strong>Home</strong></div>
                                     </div>
                                     <div class="padding-bottom-7 flex align-items-center">
                                         <img class="width-35 height-35 margin-right-5" src="./img/search.svg" alt="">
-                                        <div class="color-lightgray">Cerca</div>
+                                        <div class="color-lightgray hover-white cursor-pointer">Cerca</div>
                                     </div>
                                     <div class="padding-bottom-7 flex align-items-center">
                                         <img class="width-35 height-35 margin-right-5" src="./img/libreria.svg" alt="">
-                                        <div class="color-lightgray">La tua libreria</div>
+                                        <div class="color-lightgray hover-white cursor-pointer">La tua libreria</div>
                                     </div> 
                                 </div>
                         </div> 
@@ -48,21 +49,21 @@
                                 <div class="add">
                                     <div>
                                         <h3 class="color-white">PLAYLIST</h3>
-                                        <div class="flex align-items-center">
-                                            <i class="fa-solid fa-square-plus font-45 color-lightgray margin-right-5"></i>
-                                            <div class="color-lightgray">Crea Playlist</div>
+                                        <div class="flex align-items-center color-lightgray hover-white cursor-pointer">
+                                            <i class="fa-solid fa-square-plus font-45 margin-right-5"></i>
+                                            <div>Crea Playlist</div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="list">
-                                    <ul class="color-lightgray">
-                                        <li class="padding-5-0">Nome Playlist</li>
-                                        <li class="padding-5-0">Nome Playlist</li>
-                                        <li class="padding-5-0">Nome Playlist</li>
-                                        <li class="padding-5-0">Nome Playlist</li>
-                                        <li class="padding-5-0">Nome Playlist</li>
-                                        <li class="padding-5-0">Nome Playlist</li>
-                                        <li class="padding-5-0">Nome Playlist</li>
+                                    <ul class="color-lightgray cursor-pointer">
+                                        <li class="padding-5-0 hover-white">Nome Playlist</li>
+                                        <li class="padding-5-0 hover-white">Nome Playlist</li>
+                                        <li class="padding-5-0 hover-white">Nome Playlist</li>
+                                        <li class="padding-5-0 hover-white">Nome Playlist</li>
+                                        <li class="padding-5-0 hover-white">Nome Playlist</li>
+                                        <li class="padding-5-0 hover-white">Nome Playlist</li>
+                                        <li class="padding-5-0 hover-white">Nome Playlist</li>
                                     </ul>
                                 </div>
                         </div>
@@ -79,7 +80,7 @@
                             <div class="extended display-none">
                                 <div class="padding-bottom-10 flex align-items-center">
                                     <img class="download-img margin-right-5" src="./img/download.svg" alt="">
-                                    <div class="color-lightgray">Install app</div>
+                                    <div class="color-lightgray hover-white">Install app</div>
                                 </div>
                                 <hr>
                                 <div class="padding-top-10 flex align-items-center">
@@ -103,110 +104,190 @@
                 <div class="header-container width-100 height-100">
                     <div class="header-row width-100 height-100">
                         <div class="header-column width-100 height-100 flex flex-end padding-30">
-                            <button class="padding-0-40 color-lightgray border-radius-20">EFFETTUA L'UPGRADE</button>
+                            <button class="padding-0-40 color-white border-radius-20">EFFETTUA L'UPGRADE</button>
                         </div>
                     </div>
                 </div>
             </header>
             <!--header-end-->
             <div class="contents height-100 width-100">
-                <div class="main-row-1">
-                    <ul class="flex justify-center wrap color-lightgray">
-                        <li class="padding-10"><strong>IN EVIDENZA</strong></li>
-                        <li class="padding-10"><strong>PODCAST</strong></li>
-                        <li class="padding-10"><strong>CLASSIFICHE</strong></li>
-                        <li class="padding-10"><strong>GENERI E MOOD</strong></li>
-                        <li class="padding-10"><strong>NUOVE USCITE</strong></li>
-                        <li class="padding-10"><strong>SCOPRI</strong></li>
-                    </ul>
+
+                <!--main-row-1-->
+
+                    <div class="main-row-1">
+                        <ul class="flex justify-center wrap color-lightgray cursor-pointer">
+                            <li class="padding-10 hover-white">
+                                <div><strong>IN EVIDENZA</strong></div>
+                                <div class="main-green-bar"></div>
+                            </li>
+                            <li class="padding-10 hover-white"><strong>PODCAST</strong></li>
+                            <li class="padding-10 hover-white"><strong>CLASSIFICHE</strong></li>
+                            <li class="padding-10 hover-white"><strong>GENERI E MOOD</strong></li>
+                            <li class="padding-10 hover-white"><strong>NUOVE USCITE</strong></li>
+                            <li class="padding-10 hover-white"><strong>SCOPRI</strong></li>
+                        </ul>
+                    </div>
+
+                <!--main-row-1-end-->
+                <div class="color-white padding-25-0">
+                    <h2>Recently played</h2>
                 </div>
-                <div>
-                    <h2 class="color-white padding-25-0">Recently played</h2>
-                </div>
-                <div class="main-row-2">
-                    <div class="col-66">
-                        <div class="col-33-3 width-100 flex space-between">
-                            <div class="card width-48">
-                                <div class="card-img position-relative">
-                                    <img src="./img/metal_lifting.jpg" alt="" class="main-image max-width-100">
-                                    <div class="background-black-0-5 width-100 height-98 hover-img">
-                                        <i class="fa-regular fa-circle-play color-white font-45"></i>
+                <!--main-row-2-->
+
+                    <div class="main-row-2">
+                        <div class="col-66">
+                            <div class="col-33-3 width-100 flex space-between">
+                                <div class="card width-48">
+                                    <div class="card-img position-relative">
+                                        <img src="./img/metal_lifting.jpg" alt="" class="main-image max-width-100">
+                                        <div class="background-black-0-5 width-100 height-98 hover-img">
+                                            <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-text tex-align-center padding-bottom-10">
+                                        <h3 class="album color-white">Heavy Metal</h3>
+                                        <div class="subtitle color-lightgray">Subtitle</div>
                                     </div>
                                 </div>
-                                <div class="card-text tex-align-center padding-bottom-10">
-                                    <h3 class="album color-white">Heavy Metal</h3>
-                                    <div class="subtitle color-lightgray">Subtitle</div>
+                                <div class="card width-48">
+                                    <div class="card-img position-relative">
+                                        <img src="./img/stranger.jpeg" alt="" class="main-image max-width-100">
+                                        <div class="background-black-0-5 width-100 height-98 hover-img">
+                                            <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-text tex-align-center padding-bottom-10">
+                                        <h3 class="album color-white">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h3>
+                                        <div class="subtitle color-lightgray">Subtitle</div>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="card width-48">
-                                <div class="card-img position-relative">
-                                    <img src="./img/stranger.jpeg" alt="" class="main-image max-width-100">
-                                    <div class="background-black-0-5 width-100 height-98 hover-img">
-                                        <i class="fa-regular fa-circle-play color-white font-45"></i>
+        
+                            <div class="col-33-3 width-100 flex space-between">
+                                <div class="card width-48">
+                                    <div class="card-img position-relative">
+                                        <img src="./img/aquietplace.jpeg" alt="" class="main-image max-width-100">
+                                        <div class="background-black-0-5 width-100 height-98 hover-img">
+                                            <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-text tex-align-center padding-bottom-10">
+                                        <h3 class="album color-white">A quiet place</h3>
+                                        <div class="subtitle color-lightgray">Subtitle</div>
                                     </div>
                                 </div>
-                                <div class="card-text tex-align-center padding-bottom-10">
-                                    <h3 class="album color-white">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h3>
-                                    <div class="subtitle color-lightgray">Subtitle</div>
+                                <div class="card width-48">
+                                    <div class="card-img position-relative">
+                                        <img src="./img/split.jpeg" alt="" class="main-image max-width-100">
+                                        <div class="background-black-0-5 width-100 height-98 hover-img">
+                                            <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                        </div>
+                                    </div>
+                                    <div class="card-text tex-align-center padding-bottom-10">
+                                        <h3 class="album color-white">Split</h3>
+                                        <div class="subtitle color-lightgray">Subtitle</div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-    
-                        <div class="col-33-3 width-100 flex space-between">
+
+                        <div class="col-33-3 width-100 flex space-between last-col">
                             <div class="card width-48">
                                 <div class="card-img position-relative">
-                                    <img src="./img/aquietplace.jpeg" alt="" class="main-image max-width-100">
+                                    <img src="./img/cure.jpeg" alt="" class="main-image max-width-100">
                                     <div class="background-black-0-5 width-100 height-98 hover-img">
                                         <i class="fa-regular fa-circle-play color-white font-45"></i>
                                     </div>
                                 </div>
                                 <div class="card-text tex-align-center padding-bottom-10">
-                                    <h3 class="album color-white">A quiet place</h3>
+                                    <h3 class="album color-white">A cure for wellness</h3>
                                     <div class="subtitle color-lightgray">Subtitle</div>
                                 </div>
                             </div>
                             <div class="card width-48">
                                 <div class="card-img position-relative">
-                                    <img src="./img/split.jpeg" alt="" class="main-image max-width-100">
+                                    <img src="./img/sinister.jpeg" alt="" class="main-image max-width-100">
                                     <div class="background-black-0-5 width-100 height-98 hover-img">
                                         <i class="fa-regular fa-circle-play color-white font-45"></i>
                                     </div>
                                 </div>
                                 <div class="card-text tex-align-center padding-bottom-10">
-                                    <h3 class="album color-white">Split</h3>
+                                    <h3 class="album color-white">Sinister</h3>
                                     <div class="subtitle color-lightgray">Subtitle</div>
                                 </div>
                             </div>
                         </div>
                     </div>
 
-                    <div class="col-33-3 width-100 flex space-between last-col">
+                <!--main-row-2-end-->
+                <div class="padding-25-0">
+                    <h2 class="color-white">Creato per Jhon Doe</h2>
+                    <div class="color-lightgray">Più ascolti, più saranno accurrati i suggerimenti.</div>
+                </div>
+                <!--main-row-3-->
+
+                    <div class="main-row-3">
+                        <div class="col-row-3 width-100 flex space-between">
+                            <div class="card width-48">
+                                <div class="card-img position-relative">
+                                    <img src="./img/radar.jpeg" alt="" class="main-image max-width-100">
+                                    <div class="background-black-0-5 width-100 height-98 hover-img">
+                                        <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                    </div>
+                                </div>
+                                <div class="card-text tex-align-center padding-bottom-10">
+                                    <h3 class="album color-white">Release Radar</h3>
+                                </div>
+                            </div>
+                            <div class="card width-48">
+                                <div class="card-img position-relative">
+                                    <img src="./img/mixdaily.jpeg" alt="" class="main-image max-width-100">
+                                    <div class="background-black-0-5 width-100 height-98 hover-img">
+                                        <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                    </div>
+                                </div>
+                                <div class="card-text tex-align-center padding-bottom-10">
+                                    <h3 class="album color-white">Daily Mix 1</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                <!--main-row-3-end-->
+                <div class="padding-25-0">
+                    <h2 class="color-white">Artisti più popolari</h2>
+                    <div class="color-lightgray">Più ascolti, più saranno accurrati i suggerimenti.</div>
+                </div>
+                <!--main-row-4-->
+
+                <div class="main-row-4">
+                    <div class="col-row-4 width-100 flex space-between">
                         <div class="card width-48">
                             <div class="card-img position-relative">
-                                <img src="./img/cure.jpeg" alt="" class="main-image max-width-100">
+                                <img src="./img/youg.jpeg" alt="" class="main-image max-width-100 border-radius-50">
                                 <div class="background-black-0-5 width-100 height-98 hover-img">
                                     <i class="fa-regular fa-circle-play color-white font-45"></i>
                                 </div>
                             </div>
                             <div class="card-text tex-align-center padding-bottom-10">
-                                <h3 class="album color-white">A cure for wellness</h3>
-                                <div class="subtitle color-lightgray">Subtitle</div>
+                                <h3 class="album color-white">Lana del Rey</h3>
                             </div>
                         </div>
                         <div class="card width-48">
                             <div class="card-img position-relative">
-                                <img src="./img/sinister.jpeg" alt="" class="main-image max-width-100">
+                                <img src="./img/einaudi.jpeg" alt="" class="main-image max-width-100 border-radius-50">
                                 <div class="background-black-0-5 width-100 height-98 hover-img">
                                     <i class="fa-regular fa-circle-play color-white font-45"></i>
                                 </div>
                             </div>
                             <div class="card-text tex-align-center padding-bottom-10">
-                                <h3 class="album color-white">Sinister</h3>
-                                <div class="subtitle color-lightgray">Subtitle</div>
+                                <h3 class="album color-white">Ludovico Einaudi</h3>
                             </div>
                         </div>
                     </div>
                 </div>
+
+                <!--main-row-4-end-->
             </div>
         </main>
 
@@ -228,8 +309,8 @@
                         </div>
                     </div>
                     <div class="padding-left-20">
-                        <i class="fa-regular fa-heart display-block color-lightgray heart"></i>
-                        <i class="fa-regular fa-folder color-lightgray"></i>
+                        <i class="fa-regular fa-heart display-block color-lightgray heart hover-white cursor-pointer"></i>
+                        <i class="fa-regular fa-folder color-lightgray hover-white cursor-pointer"></i>
                     </div>
                 </div>
             </div>
@@ -246,7 +327,7 @@
                     </div>
                     <div class="width-100 flex align-items-center height-50 justify-center">
                         <span class="color-white font-13">0.25</span>
-                        <div class="progress-bar margin-0-10 border-radius-20">
+                        <div class="progress-bar margin-0-10 border-radius-20 cursor-pointer">
                             <div class="played-time height-100 border-radius-20 position-relative">
                                 <div class="progress-bar-cursor"></div>
                             </div>
@@ -261,8 +342,12 @@
                     <i class="fa-solid fa-display"></i>
                     <i class="fa-solid fa-volume-high"></i>
                 </div>
-                <div class="sound-bar border-radius-20 width-50">
-                    <div class="volume height-100 border-radius-20 position-relative"></div>
+                <div class="sound-bar border-radius-20 width-50 cursor-pointer">
+                    <div class="volume-bar height-100 border-radius-20 position-relative">
+                        <div class="volume height-100 border-radius-20 position-relative">
+                            <div class="volume-bar-cursor"></div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
