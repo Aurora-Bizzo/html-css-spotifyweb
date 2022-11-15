@@ -13,97 +13,211 @@
 </head>
 <body>
 
-<div class="wrapper">
-    <aside class="height-100">
-        <div class="aside-content height-100 flex flex-column space-between">
-            <div class="menu width-100">
-               <div class="icons padding-15">
-                    <div class="short">
-                        <img class="logo-s" src="./img/logo-small.svg" alt="">
-                        <img class="home" src="./img/home.svg" alt="">
-                        <img class="search" src="./img/search.svg" alt="">
-                        <img class="library" src="./img/libreria.svg" alt="">
-                    </div>
-                    <div class="extended display-none">
-                        <img class="logo" src="./img/logo.svg" alt="">
-                        <div class="padding-bottom-7 flex align-items-center">
-                            <img class="width-35 height-35 margin-right-5" src="./img/home.svg" alt="">
-                            <div class="color-white"><strong>Home</strong></div>
-                        </div>
-                        <div class="padding-bottom-7 flex align-items-center">
-                            <img class="width-35 height-35 margin-right-5" src="./img/search.svg" alt="">
-                            <div class="color-lightgray">Cerca</div>
-                        </div>
-                        <div class="padding-bottom-7 flex align-items-center">
-                            <img class="width-35 height-35 margin-right-5" src="./img/libreria.svg" alt="">
-                            <div class="color-lightgray">La tua libreria</div>
+<div class="wrapper position-relative">
+    <!--aside-->
+
+        <aside class="height-100">
+            <div class="aside-content height-100 flex flex-column space-between">
+
+                <!--top-sidebar-->
+                    <div class="menu width-100">
+                        <div class="icons padding-15">
+                                <div class="short">
+                                    <img class="logo-s" src="./img/logo-small.svg" alt="">
+                                    <img class="home" src="./img/home.svg" alt="">
+                                    <img class="search" src="./img/search.svg" alt="">
+                                    <img class="library" src="./img/libreria.svg" alt="">
+                                </div>
+                                <div class="extended display-none">
+                                    <img class="logo" src="./img/logo.svg" alt="">
+                                    <div class="padding-bottom-7 flex align-items-center">
+                                        <img class="width-35 height-35 margin-right-5" src="./img/home.svg" alt="">
+                                        <div class="color-white"><strong>Home</strong></div>
+                                    </div>
+                                    <div class="padding-bottom-7 flex align-items-center">
+                                        <img class="width-35 height-35 margin-right-5" src="./img/search.svg" alt="">
+                                        <div class="color-lightgray">Cerca</div>
+                                    </div>
+                                    <div class="padding-bottom-7 flex align-items-center">
+                                        <img class="width-35 height-35 margin-right-5" src="./img/libreria.svg" alt="">
+                                        <div class="color-lightgray">La tua libreria</div>
+                                    </div> 
+                                </div>
                         </div> 
+                        <div class="play-list display-none padding-15">
+                                <div class="add">
+                                    <div>
+                                        <h3 class="color-white">PLAYLIST</h3>
+                                        <div class="flex align-items-center">
+                                            <i class="fa-solid fa-square-plus font-45 color-lightgray margin-right-5"></i>
+                                            <div class="color-lightgray">Crea Playlist</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="list">
+                                    <ul class="color-lightgray">
+                                        <li class="padding-5-0">Nome Playlist</li>
+                                        <li class="padding-5-0">Nome Playlist</li>
+                                        <li class="padding-5-0">Nome Playlist</li>
+                                        <li class="padding-5-0">Nome Playlist</li>
+                                        <li class="padding-5-0">Nome Playlist</li>
+                                        <li class="padding-5-0">Nome Playlist</li>
+                                        <li class="padding-5-0">Nome Playlist</li>
+                                    </ul>
+                                </div>
+                        </div>
                     </div>
-               </div> 
-               <div class="play-list display-none padding-15">
-                    <div class="add">
-                        <div>
-                            <h3 class="color-white">PLAYLIST</h3>
-                            <div class="flex align-items-center">
-                                <i class="fa-solid fa-square-plus font-45 color-lightgray margin-right-5"></i>
-                                <div class="color-lightgray">Crea Playlist</div>
+                <!--top-sidebar-end-->
+
+                <!--bottom-sidebar-->
+                    <div class="user width-100">
+                        <div class="user-content">
+                            <div class="short">
+                                <img class="download-img" src="./img/download.svg" alt="">
+                                <img class="profile-img border-radius-20" src="./img/profile.svg" alt="">
+                            </div>
+                            <div class="extended display-none">
+                                <div class="padding-bottom-10 flex align-items-center">
+                                    <img class="download-img margin-right-5" src="./img/download.svg" alt="">
+                                    <div class="color-lightgray">Install app</div>
+                                </div>
+                                <hr>
+                                <div class="padding-top-10 flex align-items-center">
+                                    <img class="profile-img margin-right-5 border-radius-20" src="./img/profile.svg" alt="">
+                                    <div class="color-white"><strong>Jhon Doe</strong></div>
+                                </div>  
                             </div>
                         </div>
                     </div>
-                    <div class="list">
-                        <ul class="color-lightgray">
-                            <li class="padding-5-0">Nome Playlist</li>
-                            <li class="padding-5-0">Nome Playlist</li>
-                            <li class="padding-5-0">Nome Playlist</li>
-                            <li class="padding-5-0">Nome Playlist</li>
-                            <li class="padding-5-0">Nome Playlist</li>
-                            <li class="padding-5-0">Nome Playlist</li>
-                            <li class="padding-5-0">Nome Playlist</li>
-                        </ul>
-                    </div>
-               </div>
-            </div>
-            <div class="user width-100">
-                <div class="user-content">
-                    <div class="short">
-                        <img class="download-img" src="./img/download.svg" alt="">
-                        <img class="profile-img border-radius-20" src="./img/profile.svg" alt="">
-                    </div>
-                    <div class="extended display-none">
-                        <div class="padding-bottom-10 flex align-items-center">
-                            <img class="download-img margin-right-5" src="./img/download.svg" alt="">
-                            <div class="color-lightgray">Install app</div>
-                        </div>
-                        <hr>
-                        <div class="padding-top-10 flex align-items-center">
-                            <img class="profile-img margin-right-5 border-radius-20" src="./img/profile.svg" alt="">
-                            <div class="color-white"><strong>Jhon Doe</strong></div>
-                        </div>  
-                    </div>
-                </div>
-            </div>
-        </div>
-    </aside>
-    <main class="height-100">
-        <header>
-            <div class="header-container width-100 height-100">
-                <div class="header-row width-100 height-100">
-                    <div class="header-column width-100 height-100 flex flex-end padding-30">
-                        <button class="padding-0-40 color-lightgray border-radius-20">EFFETTUA L'UPGRADE</button>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <div class="contents height-100 width-100">
+                <!--bottom-sidebar-end-->
 
-        </div>
-    </main>
+            </div>
+        </aside>
+
+    <!--aside-end-->
+
+    <!--main-->
+        <main class="height-100">
+            <!--header-->
+            <header class="background-black-0-5">
+                <div class="header-container width-100 height-100">
+                    <div class="header-row width-100 height-100">
+                        <div class="header-column width-100 height-100 flex flex-end padding-30">
+                            <button class="padding-0-40 color-lightgray border-radius-20">EFFETTUA L'UPGRADE</button>
+                        </div>
+                    </div>
+                </div>
+            </header>
+            <!--header-end-->
+            <div class="contents height-100 width-100">
+                <div class="main-row-1">
+                    <ul class="flex justify-center wrap color-lightgray">
+                        <li class="padding-10"><strong>IN EVIDENZA</strong></li>
+                        <li class="padding-10"><strong>PODCAST</strong></li>
+                        <li class="padding-10"><strong>CLASSIFICHE</strong></li>
+                        <li class="padding-10"><strong>GENERI E MOOD</strong></li>
+                        <li class="padding-10"><strong>NUOVE USCITE</strong></li>
+                        <li class="padding-10"><strong>SCOPRI</strong></li>
+                    </ul>
+                </div>
+                <div>
+                    <h2 class="color-white padding-25-0">Recently played</h2>
+                </div>
+                <div class="main-row-2">
+                    <div class="col-66">
+                        <div class="col-33-3 width-100 flex space-between">
+                            <div class="card width-48">
+                                <div class="card-img position-relative">
+                                    <img src="./img/metal_lifting.jpg" alt="" class="main-image max-width-100">
+                                    <div class="background-black-0-5 width-100 height-98 hover-img">
+                                        <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                    </div>
+                                </div>
+                                <div class="card-text tex-align-center padding-bottom-10">
+                                    <h3 class="album color-white">Heavy Metal</h3>
+                                    <div class="subtitle color-lightgray">Subtitle</div>
+                                </div>
+                            </div>
+                            <div class="card width-48">
+                                <div class="card-img position-relative">
+                                    <img src="./img/stranger.jpeg" alt="" class="main-image max-width-100">
+                                    <div class="background-black-0-5 width-100 height-98 hover-img">
+                                        <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                    </div>
+                                </div>
+                                <div class="card-text tex-align-center padding-bottom-10">
+                                    <h3 class="album color-white">Stranger Things, Vol.1 (a Netflix Original Series Soundtrack)</h3>
+                                    <div class="subtitle color-lightgray">Subtitle</div>
+                                </div>
+                            </div>
+                        </div>
+    
+                        <div class="col-33-3 width-100 flex space-between">
+                            <div class="card width-48">
+                                <div class="card-img position-relative">
+                                    <img src="./img/aquietplace.jpeg" alt="" class="main-image max-width-100">
+                                    <div class="background-black-0-5 width-100 height-98 hover-img">
+                                        <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                    </div>
+                                </div>
+                                <div class="card-text tex-align-center padding-bottom-10">
+                                    <h3 class="album color-white">A quiet place</h3>
+                                    <div class="subtitle color-lightgray">Subtitle</div>
+                                </div>
+                            </div>
+                            <div class="card width-48">
+                                <div class="card-img position-relative">
+                                    <img src="./img/split.jpeg" alt="" class="main-image max-width-100">
+                                    <div class="background-black-0-5 width-100 height-98 hover-img">
+                                        <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                    </div>
+                                </div>
+                                <div class="card-text tex-align-center padding-bottom-10">
+                                    <h3 class="album color-white">Split</h3>
+                                    <div class="subtitle color-lightgray">Subtitle</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-33-3 width-100 flex space-between last-col">
+                        <div class="card width-48">
+                            <div class="card-img position-relative">
+                                <img src="./img/cure.jpeg" alt="" class="main-image max-width-100">
+                                <div class="background-black-0-5 width-100 height-98 hover-img">
+                                    <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                </div>
+                            </div>
+                            <div class="card-text tex-align-center padding-bottom-10">
+                                <h3 class="album color-white">A cure for wellness</h3>
+                                <div class="subtitle color-lightgray">Subtitle</div>
+                            </div>
+                        </div>
+                        <div class="card width-48">
+                            <div class="card-img position-relative">
+                                <img src="./img/sinister.jpeg" alt="" class="main-image max-width-100">
+                                <div class="background-black-0-5 width-100 height-98 hover-img">
+                                    <i class="fa-regular fa-circle-play color-white font-45"></i>
+                                </div>
+                            </div>
+                            <div class="card-text tex-align-center padding-bottom-10">
+                                <h3 class="album color-white">Sinister</h3>
+                                <div class="subtitle color-lightgray">Subtitle</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+
+    <!--main-end-->
+
 </div>
 
 <footer>
     <div class="footer-container width-100 height-100 padding-10">
         <div class="row width-100 height-100 flex space-between "> 
-            <div class="col-20 height-100">
+            <div class="col-33 height-100">
                 <div class="width-100 height-100 flex align-items-center">
                     <img class="width-35 height-35 margin-right-5" src="./img/sinister.jpeg" alt="">
                     <div>
@@ -119,7 +233,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-40 height-100">
+            <div class="col-33 height-100">
                 <div class="width-100 height-100 flex align-items-center flex-column">
                     <div class="player-icons width-100 height-50 flex align-items-center">
                         <ul class="color-white flex space-around width-100 font-20">
@@ -133,7 +247,7 @@
                     <div class="width-100 flex align-items-center height-50 justify-center">
                         <span class="color-white font-13">0.25</span>
                         <div class="progress-bar margin-0-10 border-radius-20">
-                            <div class="played-time height-100 border-radius-20">
+                            <div class="played-time height-100 border-radius-20 position-relative">
                                 <div class="progress-bar-cursor"></div>
                             </div>
                         </div>
@@ -141,14 +255,14 @@
                     </div>
                 </div>
             </div>
-            <div class="col-20 height-100 flex align-items-center flex-end">
+            <div class="col-33 height-100 flex align-items-center flex-end">
                 <div class="width-76 flex space-between color-white font-15">
                     <i class="fa-solid fa-list"></i>
                     <i class="fa-solid fa-display"></i>
                     <i class="fa-solid fa-volume-high"></i>
                 </div>
-                <div class="sound-bar border-radius-20">
-                    <div class="volume height-100 border-radius-20"></div>
+                <div class="sound-bar border-radius-20 width-50">
+                    <div class="volume height-100 border-radius-20 position-relative"></div>
                 </div>
             </div>
         </div>
