@@ -16,6 +16,10 @@ button {
 
 /*utilities*/
 
+    .border-radius-20 {
+        border-radius: 20px;
+    }
+
     /*display*/
 
     .display-none {
@@ -34,12 +38,16 @@ button {
             width: 100%;
         }
 
+        .width-35 {
+            width: 35px;
+        }
+
         .height-100 {
             height: 100%;
         }
 
-        .width-35 {
-            width: 35px;
+        .height-50 {
+            height: 50%;
         }
 
         .height-35 {
@@ -77,6 +85,10 @@ button {
             padding: 0 40px;
         }
 
+        .padding-top-6 {
+            padding-top: 6px;
+        }
+
         .padding-top-10 {
             padding-top: 10px;
         }
@@ -101,12 +113,24 @@ button {
             margin-right: 5px;
         }
 
+        .margin-0-10 {
+            margin: 0 10px;
+        }
+
     /*margin-end*/
 
     /*fonts*/
 
         .font-45 {
             font-size: 45px;
+        }
+
+        .font-30 {
+            font-size: 30px;
+        }
+
+        .font-20 {
+            font-size: 20px;
         }
 
         .font-12 {
@@ -127,6 +151,10 @@ button {
 
         .flex-column {
             flex-direction: column;
+        }
+
+        .space-around {
+            justify-content: space-around;
         }
 
         .space-between {
@@ -153,16 +181,7 @@ button {
 
     aside {
         width: 50px;
-        height: 100%;
         background-color: black;
-    }
-
-    .aside-content {
-        height: 100%;    
-    }
-
-    .menu {
-        width: 100%;
     }
 
     .logo {
@@ -177,10 +196,6 @@ button {
     .list {
         overflow-y: auto;
     }
-
-    .user {
-        width: 100%;
-    }
      
     ul {
         list-style: none;
@@ -189,7 +204,6 @@ button {
     .profile-img {
         background-color: gray;
         padding: 1px;
-        border-radius: 19px;
         height: 35px;
         width: 35px;
     }
@@ -218,13 +232,10 @@ button {
         top: 0;
         right: 0;
         width: calc(100vw - 50px);
-        height: 100%;
         background-color: yellow;
     }
 
     .contents {
-        width: 100%;
-        height: 100%;
         background-color: blueviolet;
         padding: 100px 15px 15px 15px;
         overflow-y: auto;    
@@ -233,7 +244,6 @@ button {
     button {
         background-color: transparent;
         border: 2px solid white;
-        border-radius: 20px;
     }
     
 
@@ -250,20 +260,48 @@ button {
         right: 0;
     }
 
-    .footer-container, .row {
-        width: 100%;
-        height: 100%;
-    }
-
     .col-20, .col-40 {
         background-color: blue;
         width: 33%;
-        height: 100%;
     }
 
+    .progress-bar {
+        width: 80%;
+        height: 5px;
+        background-color: rgba(225,225,225,0.2);
+        cursor: pointer;
+    }
+
+    .played-time {
+        width: 20%;
+        background-color: rgba(225,225,225,0.75);
+        position: relative;
+    }
+
+    .progress-bar-cursor {
+        display: none;
+    }
 /*footer-end*/
 
+/*hover*/
 
+.progress-bar:hover .played-time {
+    background-color: rgb(135, 248, 28);
+}
+
+.progress-bar:hover .progress-bar-cursor {
+    display: block;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    border-radius: 50%;
+    width: 13px;
+    height: 13px;
+    background-color: rgba(225,225,225);
+    transform: translateY(-50%);
+}
+
+/*hover-end*/
 
 
 /*media*/
