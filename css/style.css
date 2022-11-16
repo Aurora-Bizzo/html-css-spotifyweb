@@ -252,12 +252,29 @@ button {
         padding: 7px;
     }
 
+    .play-list {
+        height: 330px;
+        overflow-y: hidden;
+    }
+
     .list {
-        overflow-y: auto;
+        height: 30vh;
+        overflow-y: hidden;
     }
      
     ul {
         list-style: none;
+    }
+
+    .list ul {
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .user {
+        position: absolute;
+        bottom: 0;
+        background-color: black;
     }
 
     .profile-img {
@@ -310,6 +327,7 @@ button {
     button {
         background-color: transparent;
         border: 2px solid white;
+        font-size: 18px;
     }
 
     .col-33-3 {
@@ -400,6 +418,11 @@ button {
 
     .hover-white:hover {
         color:white;
+    }
+
+    #button-hover:hover, #play-button:hover {
+        scale: 1.2;
+        cursor: pointer;
     }
 
 /*hover-end*/
